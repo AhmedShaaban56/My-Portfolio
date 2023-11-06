@@ -680,18 +680,19 @@ footer span a:hover{
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .home .home-content .text-2{
         font-size: 50px;
     }
     .home .home-content .socials a{
         padding:2px ;
         font-size:40px ;
-
-    
     }
     .home .home-content .text-3{
-        font-size: 27px;
+        font-size: 24px;
+    }
+    .home .home-content .text-3 .typing{
+        font-size: 25px;
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text{
@@ -715,4 +716,5 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+
 }
