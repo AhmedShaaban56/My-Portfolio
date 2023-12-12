@@ -147,7 +147,7 @@ section .title::after {
   height: 45px;
   width: 42px;
   background: var(--crimson);
-  right: 30px;
+  right: 12px;
   bottom: 10px;
   text-align: center;
   line-height: 45px;
@@ -664,7 +664,7 @@ footer span a:hover {
     min-height: 250px;
     text-align: center;
   }
-  ::after{
+  ::after {
     font-size: 14px;
   }
   .skills .skills-content .column,
@@ -692,13 +692,14 @@ footer span a:hover {
 
 @media (max-width: 690px) {
   .max-width {
-    padding: 0 23px;
+    padding-inline: 10px;
   }
   .home .home-content .text-2 {
-    font-size: 60px;
+    font-size: 45px;
+    margin-bottom: 10px;
   }
   .home .home-content .text-3 {
-    font-size: 32px;
+    font-size: 22px;
   }
   .home .home-content a {
     font-size: 20px;
@@ -742,14 +743,16 @@ footer span a:hover {
     width: 150px;
   }
   .projects .card .box {
-    padding: 10px 10px;
+    padding: 10px;
   }
   .scroll-up-btn {
-    right: 15px;
+    right: 5px;
     bottom: 15px;
+    /* top: 0; */
     height: 38px;
     width: 35px;
     font-size: 23px;
+    /* position: sticky; */
     line-height: 38px;
   }
 }
