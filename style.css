@@ -657,12 +657,16 @@ footer span a:hover {
   .about .about-content .right {
     flex: 100%;
   }
+
   .services .serv-content .card {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     min-height: 250px;
     text-align: center;
+  }
+  .services .serv-content .card .box {
+    padding-top: 20px;
   }
   ::after {
     font-size: 14px;
@@ -680,13 +684,16 @@ footer span a:hover {
     font-size: 40px;
   }
   .projects .card .box {
-    padding: 15px 15px;
+    padding: 15px;
   }
   .projects .card .box .text {
     font-size: 17px;
   }
   .projects .card .box p {
     font-size: 12px;
+  }
+  .max-width {
+    padding-inline: 10px;
   }
 }
 
@@ -704,8 +711,14 @@ footer span a:hover {
   .home .home-content a {
     font-size: 20px;
   }
+  .projects .max-width .title {
+    font-size: 30px;
+  }
   .services .serv-content .card {
     width: 100%;
+    /* padding-top:10px ; */
+  }
+  .services .serv-content .card .box {
   }
   .home .home-content .socials a {
     padding: 2px;
@@ -744,6 +757,9 @@ footer span a:hover {
   }
   .projects .card .box {
     padding: 10px;
+  }
+  .projects .max-width .title {
+    font-size: 30px;
   }
   .scroll-up-btn {
     right: 5px;
