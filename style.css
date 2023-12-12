@@ -593,8 +593,14 @@ footer span a:hover {
 }
 
 @media (max-width: 991px) {
+  body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
   .max-width {
-    padding: 0 50px;
+    padding: 0;
   }
 }
 @media (max-width: 947px) {
@@ -653,8 +659,13 @@ footer span a:hover {
   }
   .services .serv-content .card {
     width: 100%;
+    padding: 10px;
     margin-bottom: 20px;
-    height: 260px;
+    min-height: 250px;
+    text-align: center;
+  }
+  ::after{
+    font-size: 14px;
   }
   .skills .skills-content .column,
   .contact .contact-content .column {
@@ -703,17 +714,18 @@ footer span a:hover {
 
 @media (max-width: 400px) {
   .home .home-content .text-2 {
-    font-size: 50px;
+    font-size: 40px;
+    margin-bottom: 10px;
   }
   .home .home-content .socials a {
     padding: 2px;
     font-size: 40px;
   }
   .home .home-content .text-3 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .home .home-content .text-3 .typing {
-    font-size: 25px;
+    font-size: 22px;
   }
   .about .about-content .right .text,
   .skills .skills-content .left .text {
@@ -728,6 +740,9 @@ footer span a:hover {
   }
   .right form .error-box {
     width: 150px;
+  }
+  .projects .card .box {
+    padding: 10px 10px;
   }
   .scroll-up-btn {
     right: 15px;
