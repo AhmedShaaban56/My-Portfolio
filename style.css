@@ -761,13 +761,16 @@ footer span a:hover {
   .projects .max-width .title {
     font-size: 30px;
   }
-  .max-width img {
-    width: 90%;
+  .about .about-content .left {
+    margin: 0;
+    padding: 0;
+  }
+  .about .about-content .left img {
     margin: auto;
+    padding: 0;
   }
   .contact .sub-title {
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 13px;
   }
   .scroll-up-btn {
     right: 5px;
