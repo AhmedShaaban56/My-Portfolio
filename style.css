@@ -728,7 +728,7 @@ footer span a:hover {
 
 @media (max-width: 400px) {
   .home .home-content .text-2 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
   }
   .home .home-content .socials a {
@@ -736,10 +736,10 @@ footer span a:hover {
     font-size: 40px;
   }
   .home .home-content .text-3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .home .home-content .text-3 .typing {
-    font-size: 22px;
+    font-size: 21px;
   }
   .about .about-content .right .text,
   .skills .skills-content .left .text {
@@ -775,11 +775,9 @@ footer span a:hover {
   .scroll-up-btn {
     right: 5px;
     bottom: 15px;
-    /* top: 0; */
     height: 38px;
     width: 35px;
     font-size: 23px;
-    /* position: sticky; */
     line-height: 38px;
   }
 }
