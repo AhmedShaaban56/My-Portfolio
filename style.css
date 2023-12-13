@@ -212,23 +212,8 @@ section .title::after {
 .home .home-content a {
   text-decoration: none;
   color: var(--redWhite);
-  /* display: inline-block;
-    background: var(--crimson);
-    color: var(--redWhite);
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 2px solid var(--crimson);
-    transition: all 0.3s ease; */
 }
-/* .home .home-content a:hover{
-    color: var(--crimson);
-    background: none;
-} */
 
-/* about section styling */
 .about .title::after {
   content: "who i am";
 }
