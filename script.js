@@ -51,7 +51,7 @@ $(document).ready(function () {
   var typed = new Typed(".typing-2", {
     strings: ["Front End Developer", "Electerical Engineer", "Freelancer"],
     typeSpeed: 100,
-    backSpeed: 60,
+    backSpeed: 30,
     loop: true,
   });
 
