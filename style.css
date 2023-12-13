@@ -316,7 +316,7 @@ section .title::after {
 .skills .title::after {
   content: "what i know";
 }
-.skills .skills-content .column {
+.skills .skills-content .colum {
   width: calc(50% - 30px);
 }
 .skills .skills-content .left .text {
@@ -416,7 +416,7 @@ dl.group:hover .fa-solid {
 }
 .projects .carousel .card .box {
   display: flex;
-  flex-direction: column;
+  flex-direction: colum;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
@@ -466,7 +466,7 @@ dl.group:hover .fa-solid {
 .contact .title::after {
   content: "get in touch";
 }
-.contact .contact-content .column {
+.contact .contact-content .colum {
   width: calc(50% - 30px);
 }
 .contact .contact-content .text {
@@ -498,7 +498,7 @@ dl.group:hover .fa-solid {
 .contact .contact-content .info .sub-title {
   color: #333;
 }
-.contact .column form .fields {
+.contact .colum form .fields {
   display: flex;
 }
 .contact .right form .field,
@@ -634,7 +634,7 @@ footer span a:hover {
   .max-width {
     max-width: 930px;
   }
-  .about .about-content .column {
+  .about .about-content .colum {
     width: 100%;
   }
   .about .about-content .left {
@@ -659,8 +659,8 @@ footer span a:hover {
   ::after {
     font-size: 14px;
   }
-  .skills .skills-content .column,
-  .contact .contact-content .column {
+  .skills .skills-content .colum,
+  .contact .contact-content .colum {
     width: 100%;
     margin-bottom: 20px;
   }
@@ -732,7 +732,7 @@ footer span a:hover {
     font-size: 19px;
   }
   .contact .right form .fields {
-    flex-direction: column;
+    flex-direction: colum;
   }
   .contact .right form .name,
   .contact .right form .email {
@@ -753,7 +753,8 @@ footer span a:hover {
   }
   .about .about-content .left img {
     margin: auto;
-    padding: 0;
+    padding: 2px;
+    transform: scale(0.8);
   }
   .contact .sub-title {
     font-size: 13px;
