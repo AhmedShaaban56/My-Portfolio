@@ -717,10 +717,9 @@ footer span a:hover {
     padding: 2px;
     font-size: 40px;
   }
-  footer{
+  footer {
     font-size: smaller;
     color: var(--crimson);
-  
   }
 }
 
@@ -772,7 +771,7 @@ footer span a:hover {
     height: 300px;
   }
   .contact .sub-title {
-    font-size: 15px;
+    font-size: 13px;
   }
   .scroll-up-btn {
     right: 5px;
