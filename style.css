@@ -226,7 +226,7 @@ section .title::after {
   height: 400px;
   width: 400px;
   object-fit: cover;
-  border-radius: 200px;
+  border-radius: 50%;
   border: 5px solid var(--crimson);
   padding: 5px;
   transform: scale(0.9);
@@ -316,7 +316,7 @@ section .title::after {
 .skills .title::after {
   content: "what i know";
 }
-.skills .skills-content .colum {
+.skills .skills-content .column {
   width: calc(50% - 30px);
 }
 .skills .skills-content .left .text {
@@ -413,7 +413,7 @@ section .title::after {
 }
 .projects .carousel .card .box {
   display: flex;
-  flex-direction: colum;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
@@ -463,7 +463,7 @@ section .title::after {
 .contact .title::after {
   content: "get in touch";
 }
-.contact .contact-content .colum {
+.contact .contact-content .column {
   width: calc(50% - 30px);
 }
 .contact .contact-content .text {
@@ -495,7 +495,7 @@ section .title::after {
 .contact .contact-content .info .sub-title {
   color: #333;
 }
-.contact .colum form .fields {
+.contact .column form .fields {
   display: flex;
 }
 .contact .right form .field,
@@ -631,14 +631,14 @@ footer span a:hover {
   .max-width {
     max-width: 930px;
   }
-  .about .about-content .colum {
+  .about .about-content .column {
     width: 100%;
   }
-  .about .about-content .left {
+  /* .about .about-content .left {
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
-  }
+  } */
   .about .about-content .right {
     flex: 100%;
   }
@@ -656,14 +656,15 @@ footer span a:hover {
   ::after {
     font-size: 14px;
   }
-  .skills .skills-content .colum,
-  .contact .contact-content .colum {
+  .skills .skills-content .column,
+  .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
   }
   .about {
     text-align: center;
   }
+
   .home .home-content .socials a {
     padding: 3px 7px;
     font-size: 40px;
@@ -678,7 +679,7 @@ footer span a:hover {
     font-size: 12px;
   }
   .max-width {
-    padding-inline: 10px;
+    padding-inline: 15px;
   }
 }
 
@@ -703,8 +704,7 @@ footer span a:hover {
     width: 100%;
     /* padding-top:10px ; */
   }
-  .services .serv-content .card .box {
-  }
+
   .home .home-content .socials a {
     padding: 2px;
     font-size: 40px;
@@ -731,7 +731,7 @@ footer span a:hover {
     font-size: 19px;
   }
   .contact .right form .fields {
-    flex-direction: colum;
+    flex-direction: column;
   }
   .contact .right form .name,
   .contact .right form .email {
@@ -750,6 +750,7 @@ footer span a:hover {
     margin: 0;
     padding: 0;
   }
+ 
   .about .about-content .left img {
     margin: auto;
     padding: 2px;
