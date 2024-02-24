@@ -36,7 +36,7 @@ section {
 }
 .max-width {
   max-width: 1300px;
-  padding: 0 80px;
+  padding: 0 20px;
   margin: auto;
 }
 .about,
@@ -284,7 +284,7 @@ section .title::after {
   background: #222;
   text-align: center;
   border-radius: 6px;
-  padding: 50px 25px;
+  padding: 50px 5px;
   height: 250px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -581,10 +581,12 @@ footer span a:hover {
 }
 
 /* responsive media query start */
-@media (max-width: 1080px) {
-  .about .about-content .left img {
-    height: 350px;
-    width: 350px;
+@media (min-width: 1000px) {
+  .services .serv-content .card p {
+    font-size: 15px;
+  }
+  .services .serv-content .card .text {
+    font-size: 22px;
   }
 }
 
@@ -605,6 +607,9 @@ footer span a:hover {
   .skills .skills-content .left p,
   .about .about-content .right p {
     text-align: left;
+  }
+  .services .serv-content .card .text {
+    font-size: 22px;
   }
 }
 @media (max-width: 947px) {
