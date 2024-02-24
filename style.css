@@ -53,7 +53,7 @@ footer {
 .contact .contact-content {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-between;
 }
 section .title {
@@ -74,7 +74,6 @@ section .title::before {
   height: 3px;
   background: #111;
   transform: translateX(-50%);
- 
 }
 
 section .title::after {
@@ -220,7 +219,7 @@ section .title::after {
   content: "who i am";
 }
 .about .about-content .left {
-  width: 45%;
+  /* width: 45%; */
   margin-top: 20px;
 }
 
@@ -389,13 +388,22 @@ section .title::after {
   width: 85%;
 }
 .skills-content .seudo .react::before {
-  width: 90%;
+  width: 95%;
 }
 .skills-content .seudo .jQuery::before {
   width: 88%;
 }
+.skills-content .seudo .antd::before {
+  width: 85%;
+}
+.skills-content .seudo .typescript::before {
+  width: 80%;
+}
+.skills-content .seudo .angular::before {
+  width: 60%;
+}
 .skills-content .seudo .github::before {
-  width: 90%;
+  width: 95%;
 }
 
 /* projects section styling */
@@ -591,7 +599,6 @@ footer span a:hover {
     padding: 0;
   }
   .about .about-content .left {
-    width: 100%;
     margin: auto;
     padding: 0;
   }
@@ -784,7 +791,7 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
-  .navbar .logo a{
+  .navbar .logo a {
     font-size: 25px;
   }
 }
